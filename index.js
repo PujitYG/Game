@@ -20,7 +20,6 @@
         audio.play();
         setTimeout(function(){
           evt.target.classList.remove("apply-black");
-          console.log("OKDODOKDODKOKDKODK");
         },200);
        }
 
@@ -83,15 +82,13 @@
        }
 
        function cmpre(addedColor, myColor) {
-         for (let i = 0; i < myColor.length; i++) {
-           if (addedColor[i] !== myColor[i]) {
+       //  for (let i = 0; i < myColor.length; i++) {
+           if (addedColor[myColor.length-1] !== myColor[myColor.length-1]) {
              return false;
-           }
+        //   }
          }
          return true;
        }
-
-       var getValue = 0;
 
        // function interval() {
        //   var playMemory = setInterval(function() {
