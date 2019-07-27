@@ -11,7 +11,7 @@
          // btnEle[i].addEventListener("mouseup", function() {
          //
          // });
-         btnEle[i].addEventListener("click", yourSequence);
+         btnEle[i].addEventListener("mousedown", yourSequence);
        }
 
       function pressedDown(evt){
